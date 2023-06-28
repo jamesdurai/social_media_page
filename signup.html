@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.4/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/signup.css">
+
+</head>
+<body>
+    <section class="signup section">
+        <div class="container">
+            <div class="row">
+                <div class="col-signup">
+                    <div class="title-signup">
+                        <h1>Sign Up</h1>
+                        <p><span>It's quick and easy.</span></p>
+                    </div>
+
+                    <div class="close-icon">
+                        <a href="#"><i class="bi bi-x"></i></a>
+                    </div>
+                </div>
+
+                <div class="form-line"></div>
+
+                <div class="form-sec">
+                    <form id="form-signup" action="#" method="post">
+                        
+                        <input type="text" id="first_name" name="first_name" placeholder="First name" >
+                        <div class="error"></div>
+                        
+                        <input type="text" id="last_name" name="last_name" placeholder="Last name">
+                        <div class="error"></div>
+                        
+                        <input type="text" id="email" name="email" placeholder="Mobile number or Email address">
+                        <div class="error"></div>
+                        
+                        <input type="password" id="password" name="password" placeholder="New password">
+                        <div class="error"></div>
+                        
+                        <div class="dob-sec">
+                            <div class="label-sec">
+                                <label for="dob">Date of Birth</label>
+                            </div>
+                            <div class="select-sec">
+                            <select id="dob">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="4">5</option>
+                                <option value="4">6</option>
+                                <option value="4">7</option>
+                                <option value="4">8</option>
+                                <option value="4">9</option>
+                                <option value="4">10</option>
+                                <option value="4">11</option>
+                                <option value="4">12</option>
+                            </select>
+                            <select id="dob">
+                                <option value="jan">Jan</option>
+                                <option value="feb">Feb</option>
+                                <option value="mar">Mar</option>
+                                <option value="nov">Apr</option>
+                                <option value="nov">May</option>
+                                <option value="nov">JUN</option>
+                                <option value="nov">Jul</option>
+                                <option value="nov">Aug</option>
+                                <option value="nov">Sep</option>
+                                <option value="nov">Oct</option>
+                                <option value="nov">Sep</option>
+                                <option value="nov">Nov</option>
+                                <option value="nov">Dec</option>
+                            </select>
+                            <select id="dob">
+                                <option value="20">2020</option>
+                                <option value="21">2021</option>
+                                <option value="22">2022</option>
+                                <option value="23">2023</option>
+                            </select>
+                            </div>
+                            </div>
+                        
+                        <div class="form-gender">
+                        <label for="Gender">Gender:</label>
+		
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="Gender">
+                        
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="Gender">
+                        
+                        <label for="oth">Custom</label>
+                        <input type="radio" id="oth" name="Gender">
+                        </div>
+		
+                        <div class="term">
+                        <p>People who use our service may have uploaded your contact information to Facebook. <a href="Learn more "></a></p>
+
+                        <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+                        </div>
+            
+                        <div class="form-submit">
+                            <a href="#"><button class="submit">Sign Up</button></a>
+                        </div>
+                    </form>
+
+                
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="js/signup.js"></script>
+    <script src="js/storage.js"></script>
+
+</body>
+</html>
